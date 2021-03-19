@@ -1,5 +1,5 @@
 # Set phony targets
-.PHONY: create run
+.PHONY: environment script
 
 # Create Conda environment
 environment:
