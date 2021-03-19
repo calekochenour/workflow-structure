@@ -2,9 +2,9 @@
 .PHONY: create run
 
 # Create Conda environment
-create:
+environment:
 	conda env create -f environment.yml
 
 # Run script
-run: workflow-template.py
+script: 01-code-scripts/workflow-template.py
 	python 01-code-scripts/workflow-template.py
