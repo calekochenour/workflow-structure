@@ -1,9 +1,10 @@
 # Set phony targets
-.PHONY: run
+.PHONY: environment script
+
+# Create Conda environment
+environment:
+	conda env create -f environment.yml
 
 # Run script
-run: 01-code-scripts/workflow-template.py
-	conda init bash
-	conda env create -f environment.yml
-	conda activate reproducible-science
+script: 01-code-scripts/workflow-template.py
 	python 01-code-scripts/workflow-template.py
