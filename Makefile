@@ -1,10 +1,23 @@
 # Set phony targets
-.PHONY: environment script
+.PHONY: environment run scripts
 
 # Create Conda environment
 environment:
 	conda env create -f environment.yml
 
-# Run script
-script: 01-code-scripts/workflow-template.py
+# Run example workflow script
+run: 01-code-scripts/workflow-template.py
 	python 01-code-scripts/workflow-template.py
+
+# Create template scripts
+scripts:
+	> 01-code-scripts/01-acquire-data.py
+	> 01-code-scripts/02-preprocess-data.py
+	> 01-code-scripts/03-process-data.py
+	> 01-code-scripts/04-postprocess-data.py
+	> 01-code-scripts/05-visualize-data.py
+
+# Delete template scripts
+objects = 01-code-scripts/01-acquire-data.py 01-code-scripts/02-preprocess-data.py 01-code-scripts/03-process-data.py 01-code-scripts/04-postprocess-data.py 01-code-scripts/05-visualize-data.py
+clean:
+	rm -f $(objects)
