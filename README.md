@@ -44,7 +44,7 @@ To run this project in a web browser, click the icon below to launch the project
 
 ## Instructions
 
-### Open Terminal
+### Open a Terminal
 
 Within Binder, click "New" and select "Terminal" to open a terminal in the root project folder.
 
