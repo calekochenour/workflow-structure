@@ -68,12 +68,6 @@ $ conda activate reproducible-science
 
 From the terminal (locally or within Binder), you can run the example workflow, create the placeholder scripts, and delete the placeholder scripts.
 
-Create Conda environment:
-
-```bash
-$ make environment
-```
-
 Run example workflow:
 
 ```bash
