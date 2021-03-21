@@ -1,5 +1,5 @@
 # Set phony targets
-.PHONY: environment run scripts
+.PHONY: environment run scripts clean
 
 # Create Conda environment
 environment:
@@ -9,7 +9,7 @@ environment:
 run: 01-code-scripts/workflow-template.py
 	python 01-code-scripts/workflow-template.py
 
-# Create template scripts
+# Create placeholder scripts
 scripts:
 	> 01-code-scripts/01-acquire-data.py
 	> 01-code-scripts/02-preprocess-data.py
@@ -17,7 +17,7 @@ scripts:
 	> 01-code-scripts/04-postprocess-data.py
 	> 01-code-scripts/05-visualize-data.py
 
-# Delete template scripts
+# Delete placeholder scripts
 objects = 01-code-scripts/01-acquire-data.py 01-code-scripts/02-preprocess-data.py 01-code-scripts/03-process-data.py 01-code-scripts/04-postprocess-data.py 01-code-scripts/05-visualize-data.py
 clean:
 	rm -f $(objects)
