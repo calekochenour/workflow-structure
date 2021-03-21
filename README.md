@@ -38,7 +38,7 @@ To run this project locally, you will need:
 
 * Conda ([Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://docs.anaconda.com/anaconda/install/))
 
-To run this project the current web browser, click the icon below to launch the project with Binder:
+To run this project in a web browser, click the icon below to launch the project with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/calekochenour/project-structure/main)
 
