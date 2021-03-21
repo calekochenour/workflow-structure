@@ -5,7 +5,7 @@
 
 One key to open reproducible science is to provide rigorous organization of all workflow code. Not just for someone else to use, but also for you, if and when you return to the project after some time and/or when the project complexity increases.
 
-This repository provides a Python script and Jupyter Notebook both containing an example workflow structure for open reproducible science projects. The example workflow files following stages:
+This repository provides a Python script and Jupyter Notebook both containing an example workflow structure for open reproducible science projects. The example workflow contains the following stages:
 
 * Environment Setup
 * User-Defined Variables
@@ -16,7 +16,7 @@ This repository provides a Python script and Jupyter Notebook both containing an
 * Data Visualization
 * Data Export
 
-In addition to the example files that contain all workflow stages, this repository includes a Makefile to create placeholder scripts by specific workflow task, organized as follows:
+In addition to the example files that contain all workflow stages, this repository includes a Makefile to create placeholder scripts organized by workflow task, as follows:
 
 ```
 01-code-scripts/
@@ -38,13 +38,15 @@ To run this project locally, you will need:
 
 * Conda ([Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://docs.anaconda.com/anaconda/install/))
 
-To run this project in a web browser, click the icon below to launch the project with Binder:
+To run this project the current web browser, click the icon below to launch the project with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/calekochenour/project-structure/main)
 
-Binder will open a Jupyter Notebook in the current web browser. Click "New" and select "Terminal" to open a terminal in the project folder.
-
 ## Instructions
+
+### Open Terminal
+
+Within Binder, click "New" and select "Terminal" to open a terminal in the root project folder.
 
 ### Create and Activate Conda Environment
 
