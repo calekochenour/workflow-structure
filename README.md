@@ -3,7 +3,7 @@
 
 # Open Reproducible Science: Workflow Structure
 
-One key to open reproducible science is to provide rigorous organization of all workflow code. Not just for someone else to use, but also for you, if and when you return to the project after some time and/or when the project complexity increases.
+One key to open reproducible science is to provide rigorous organization of all workflow code. Not just for someone when you send your project to someone else. A future version of yourself will also benefit when you return to an organized project after some time away.
 
 This repository provides a Python script and Jupyter Notebook both containing an example workflow structure for open reproducible science projects. The example workflow contains the following stages:
 
