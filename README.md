@@ -29,8 +29,8 @@ In addition to the example files that contain all workflow stages, this reposito
 
 Complementary resources:
 
-* [Medium Article]() (coming soon)
-* [Video Tutorial]() (coming soon)
+* [Medium Article](https://medium.com/geospatial-talent-stack/open-reproducible-science-workflow-structure-e1d478f2f35b)
+* [Video Tutorial](https://www.youtube.com/watch?v=TTocczUulZ0)
 
 ## Prerequisites
 
